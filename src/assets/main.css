@@ -1,0 +1,34 @@
+
+html, body {
+  background-color: rgba(0, 0, 0, 0.948);
+  height: 100%;
+  margin: 0;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.948);
+  color: #fff;
+  font-family: monospace;
+  font-size: 2.2em;
+}
+
+#commandArea {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#commandArea > textarea {
+  width: 99.8vw;
+  height: 99.21vh;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.948);
+  color: #fff;
+  font-family: monospace;
+  font-size: 1em;
+  resize: none;
+}
